@@ -1,0 +1,50 @@
+/* Whitehall Protocol Design System for JavaFX */
+
+.root {
+    -fx-base: #1a1a1a;
+    -fx-accent: #00ff41; /* Matrix/Intelligence green */
+    -fx-default-button: #2d5a27;
+    -fx-focus-color: #00ff41;
+}
+
+.main-container {
+    -fx-background-color: #0d0d0d;
+    -fx-padding: 20;
+}
+
+.header-label {
+    -fx-font-family: "IBM Plex Sans", sans-serif;
+    -fx-font-size: 24px;
+    -fx-text-fill: #e0e0e0;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 255, 65, 0.3), 10, 0.5, 0, 0);
+}
+
+.button {
+    -fx-background-color: #1b3a17;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #2d5a27;
+    -fx-border-width: 1;
+    -fx-padding: 8 16;
+}
+
+.button:hover {
+    -fx-background-color: #2d5a27;
+    -fx-border-color: #00ff41;
+}
+
+.list-view {
+    -fx-background-color: #121212;
+    -fx-border-color: #333;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ccc;
+    -fx-padding: 10;
+}
+
+.list-cell:selected {
+    -fx-background-color: #1b3a17;
+    -fx-text-fill: #00ff41;
+}
